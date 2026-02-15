@@ -1,17 +1,11 @@
-# Streamlit for the web app
 streamlit==1.31.0
-
-# PyCaret for ML workflows
-pycaret==3.3.2
-
-# Core data packages (compatible with PyCaret 3.3.2)
+pycaret[full]==3.3.2
 pandas==2.2.0
 numpy==1.26.0
 scikit-learn==1.5.0
+setuptools>=68.0.0
+wheel>=0.40.0
 
-# Optional helpers
-matplotlib==3.8.1
-seaborn==0.12.2
 
 
 
